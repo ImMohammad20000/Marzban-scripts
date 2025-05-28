@@ -716,7 +716,7 @@ install_marzban() {
     fi
     
     FILES_URL_PREFIX="https://raw.githubusercontent.com/Gozargah/Marzban/"
-    COMPOSE_FILES_URL_PREFIX="https://raw.githubusercontent.com/ImMohammad20000/Marzban-scripts/master"
+    COMPOSE_FILES_URL_PREFIX="https://raw.githubusercontent.com/indx0/Marzban-scripts/master"
     
     mkdir -p "$DATA_DIR"
     mkdir -p "$APP_DIR"
