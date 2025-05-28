@@ -18,7 +18,7 @@ services:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_ROOT_HOST: '%'
       MYSQL_DATABASE: ${DB_NAME}
-      MYSQL_USER: ${DB_PASSWORD}
+      MYSQL_USER: ${DB_USER}
       MYSQL_PASSWORD: ${DB_PASSWORD}
     command:
       - --bind-address=127.0.0.1                       # Restricts access to localhost for increased security
