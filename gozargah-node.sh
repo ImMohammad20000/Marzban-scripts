@@ -7,4 +7,7 @@ install)
     shift
     install_command "$@"
     ;;
+*)
+    install_command "$@"
+    ::
 esac
